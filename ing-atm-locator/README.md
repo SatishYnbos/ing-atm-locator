@@ -1,12 +1,10 @@
-# Overview
+#Please read following points before using the application:
 
-Create a Java web application based on the standard servlet spec
-The web application should provide a REST api to create a list of ING ATMs in a given Dutch city and return a well formed JSON response
-The web application should invoke an external service to gather a super set of the data:  https://www.ing.nl/api/locator/atms/
-Create a page that shows the list of ING ATMs
-Use Spring and Maven. If you do not have experience in these frameworks, please feel free to use an alternative.
-
-## Bonus features
-Use of Apache Camel to route the web service call
-Secure the page with Spring security
-Unit tests using jUnit
+-> Implemented Project using Spring boot, Spring MVC and Spring Security. 
+-> Used HTML and ajax page to show list of ING ATMs.
+-> Consumed the URI:  https://www.ing.nl/api/locator/atms/ to get the ATMs details.
+-> You can check application.properties and change if you want to modify anything.
+-> To Access the app please login using credentials below
+	username: admin
+	password: admin
+-> Can find unit test cases in test packages.
